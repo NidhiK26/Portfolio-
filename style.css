@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +62,7 @@
         font-size: 3rem;
         text-align: center;
     }
-    .leftSection .btn{
+   .leftSection .btn{
         font-size:20px;
         background-color: #242354;
        
@@ -110,6 +111,8 @@ margin: 50px;
     .second {
         margin: 100px;
         padding: 0;
+        box-shadow:  5px 7px 5px rgb(57, 75, 81);
+height: 370px;
         
     }
     .second span{
@@ -123,6 +126,7 @@ margin: 50px;
     
     .skills {
         margin: 100px;
+       
         
         
     }
@@ -134,20 +138,13 @@ margin: 50px;
 padding: 20px;
 }
 
-    .container {
-  width: 45%;
-  background-color: rgb(231, 231, 231);
-  border-radius: 10px;
- 
- 
-}
+    */
 
-.html, .java, .css,.javascript, .c , .boot, .jquery {
+.html, .java, .css,.javascript, .c , .boot, .cpp {
   text-align: center;
   font-weight: bolder;
   padding-top: 2px;
   padding-bottom: 2px;
-  /* color: white; */
   border-radius: 10px;
   height:18px;
   
@@ -160,48 +157,77 @@ padding: 20px;
   width: 65%;
   background-color: rgb(112, 112, 245);
 }
+.cpp{
+  width:73%;
+  background-color:rgb(98, 98, 252);
+
+}
 .html {
   width: 80%;
-  background-color:rgb(98, 98, 252);
-}
+  background-color:rgb(72, 72, 248);}
 .css {
   width: 75%;
-  background-color:rgb(72, 72, 248);
+  background-color:rgb(35, 35, 186);
 }
 .javascript{
 width: 70%;
-  background-color:rgb(35, 35, 186);
+background-color: rgb(4, 4, 141);
 }
 .boot{
     width: 60%;
-  background-color: rgb(4, 4, 141);
+    background-color: #2a296a;
 }
 
-.jquery{
-  width:65%;
-  background-color: #2a296a;
-}
+
 .Certi{
         margin: auto;
         width: 100%;
         padding: 15px;
+        padding-top: 2px;
 }
 .Certificates{
 margin: 100px;
         padding: 0;
+        box-shadow:  5px 7px 5px rgb(57, 75, 81);
+height: 150px;
+        
 }
 .Certificates span{
 font-size: 20px;
+
+}
+.certitext{
+padding: 10px;
+}
+.certilink{
+text-decoration: none;
+font-size: medium;
+color: white;
+
 }
 .Projects{
 margin: 100px;
+padding: 20px;
 }
 .Projects span{
 font-size: 20px;
+margin-top: 5px;
 }
-#AboutMe, #Skills, #Certificates, #pro, #Contact{
-box-shadow:  5px 7px 5px rgb(57, 75, 81);
-height: 370px;
+.protext{
+  padding: 10px;
+  margin-top: 10px;
+}
+#text{
+  text-decoration:underline;
+}
+
+
+#AboutMe, #Skills, #Certificates, #pro, #Contact {
+  box-shadow: 5px 7px 5px rgb(57, 75, 81);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+
 }
 .ContactMe{
 margin: 100px;
@@ -230,29 +256,7 @@ border-radius: 100%;
 background: #fff;
 text-align: center;
 }
-/* .social-button::after {
-content: '';
-position: absolute;
-top: -1px;
-left: 50%;
-display: block;
-width: 0;
-height: 0;
-border-radius: 100%;
-transition: 0.3s;
-} */
-/* .social-button:focus, .social-button:hover {
-color: #fff;
-}
-.social-button:focus::after, .social-button:hover::after {
-width: calc(100% + 2px);
-height: calc(100% + 2px);
-margin-left: calc(-50% - 1px);
-} */
-/* .social-button i, .social-button svg {
-position: relative;
-z-index: 1;
-transition: 0.3s;
+
 } */
 .social-button i {
 font-size: 20px;
